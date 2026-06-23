@@ -1,16 +1,46 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Quiz App
 
-Currently, two official plugins are available:
+An interactive quiz application built with React to test your knowledge of React concepts and JavaScript fundamentals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React Quiz App](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **📚 15+ Questions** covering React fundamentals, hooks, state management, and more
+- **⏱️ Timed Quiz** - Each question has a time limit to keep you on your toes
+- **🎯 Score Tracking** - Earn points for correct answers and track your high score
+- **🏆 High Score Persistence** - Your best score is saved in your browser's local storage
+- **🌙 Dark Mode** - Toggle between light and dark themes for comfortable viewing
+- **⌨️ Keyboard Shortcuts** - Use keyboard for faster navigation:
+  - `1-4` - Select answer
+  - `Enter` - Go to next question / Finish
+  - `S` - Skip question
+- **⏭️ Skip Questions** - Skip difficult questions and come back later (concept not implemented yet)
+- **📊 Quiz History** - Track your performance over time
+- **🔍 Question Filters** - Filter questions by category and difficulty
+- **📱 Responsive Design** - Works on desktop, tablet, and mobile devices
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - UI Library
+- **useReducer** - State Management
+- **useEffect** - Side Effects & Data Fetching
+- **localStorage** - Persistent Storage
+- **CSS3** - Styling with animations
+- **GitHub Pages** - Hosting
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/react-quiz.git
+   cd react-quiz
